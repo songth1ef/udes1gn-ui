@@ -24,11 +24,14 @@ jobs:
 
       - name: Set up Git
         run: |
-          git config --global user.email "1549165863@qq.com"
-          git config --global user.name "songth1ef"
+          git config --global user.email "your-email@example.com"
+          git config --global user.name "your-username"
 
       - name: Bump version
-        run: npm version patch
+        run: npm version patch  # 更新版本号
+
+      - name: Push changes
+        run: git push --follow-tags
 
       - name: Publish to npm
         run: npm publish --access public
