@@ -1,6 +1,5 @@
 {
   "name": "udes1gn-ui",
-  "version": "0.1.1",
   "private": false,
   "scripts": {
     "dev": "next dev",
