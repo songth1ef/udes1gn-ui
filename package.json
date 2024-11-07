@@ -1,6 +1,6 @@
 {
   "name": "udes1gn-ui",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": false,
   "scripts": {
     "dev": "next dev",
@@ -12,7 +12,8 @@
   "dependencies": {
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "udes1gn-ui": "^0.1.5"
   },
   "devDependencies": {
     "@types/node": "^20",
