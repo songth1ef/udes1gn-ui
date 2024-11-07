@@ -30,6 +30,9 @@ jobs:
       - name: Bump version
         run: npm run release
 
+      - name: Push tags
+        run: git push --follow-tags
+
       - name: Publish to npm
         run: npm publish --access public
         env:
