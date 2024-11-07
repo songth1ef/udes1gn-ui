@@ -28,7 +28,7 @@ jobs:
           git config --global user.name "songth1ef"
 
       - name: Bump version
-        run: npm run release
+        run: npm run bump
 
       - name: Publish to npm
         run: npm publish --access public
