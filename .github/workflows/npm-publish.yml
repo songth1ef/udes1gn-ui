@@ -27,12 +27,6 @@ jobs:
           git config --global user.email "your-email@example.com"
           git config --global user.name "your-username"
 
-      - name: Bump version
-        run: npm version patch  # 更新版本号
-
-      - name: Push changes
-        run: git push --follow-tags
-
       - name: Publish to npm
         run: npm publish --access public
         env:
