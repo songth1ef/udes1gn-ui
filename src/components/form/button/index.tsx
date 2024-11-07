@@ -1,7 +1,15 @@
-import React from 'react'
-
-export default function UButton() {
-    return (
-        <div>this is button</div>
-    )
+import React from 'react';
+interface ButtonProps {
+    label: string;
+    onClick: () => void;
 }
+
+const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
+    return (
+        <button onClick={onClick}>
+            {label}
+        </button>
+    );
+};
+
+export default Button;

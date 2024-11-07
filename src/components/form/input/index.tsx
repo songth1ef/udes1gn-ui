@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-export default function UInput() {
+const UInput: React.FC = () => {
     return (
-        <div>this is input</div>
-    )
-}
+        <div>
+            this is a input
+        </div>
+    );
+};
+
+export default UInput;

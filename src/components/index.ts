@@ -1,2 +1,2 @@
-export { default as uButton } from "./form/button";
-export { default as uInput } from "./form/input";
+export { default as UButton } from "./form/button";
+export { default as UInput } from "./form/input";
