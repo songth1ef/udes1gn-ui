@@ -22,6 +22,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Set up Git
+        run: |
+          git config --global user.email "1549165863@qq.com"
+          git config --global user.name "songth1ef"
+
       - name: Bump version
         run: npm run release
 
